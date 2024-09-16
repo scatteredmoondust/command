@@ -11,7 +11,7 @@ int main()
     char str1[100],str2[100],str3[100],str4[100],str5[100];
     int item[100];
     int cost[100],i=0;
-
+    //enter the str1,itemname and cost
     printf("\nEnter the Item %d\t\t: ",i+1);
     scanf("%[^\n]",str1);
     printf("Enter the number of item\t: ");
@@ -60,6 +60,7 @@ int main()
 
     int j=0;
     int a,b,sum=0;
+    //to print the list
     printf("\t\t ╔══════════════════════════════════════════════════════╗\n");
 
 
